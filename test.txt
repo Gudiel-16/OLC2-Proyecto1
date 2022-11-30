@@ -1,0 +1,382 @@
+
+function multiplicacion(a, b, c, d, e, f) result(resultado)
+
+    implicit none
+
+    integer, intent(in) :: a
+    integer, intent(in) :: b
+    integer, intent(in) :: c
+    integer, intent(in) :: d
+    integer, intent(in) :: e
+    integer, intent(in) :: f
+
+    integer :: resultado
+    integer :: variable1, variable2, variable3, variable4, variable5
+    variable1 = a * b
+    variable2 = c * d
+    variable3 = e * f
+    variable4 = variable1 * variable2
+    variable5 = variable3 * variable4
+
+    resultado = variable5
+
+    print *, "Multiplicacion dentro de subroutine : "
+    print *, resultado
+
+end function multiplicacion
+
+function operacion() result(resultado)
+
+    implicit none
+
+    real :: resultado
+
+    resultado = 10.0 * 20.0 * 30.0 * 40.0
+
+    print *, "Operacion dentro de subroutine : "
+    print *, resultado
+
+end function operacion
+
+subroutine imprimir_hola_mundo()
+    implicit none
+
+    character, dimension(10) :: array1
+    array1 = (/ 'h', 'o', 'l', 'a', ' ', 'm', 'u', 'n', 'd', 'o' /)
+
+    print *, "TAMANIO ARRAY 1: "
+    print *, size(array1)
+    print *, "ARRAY 1: "
+    print *, array1
+
+end subroutine imprimir_hola_mundo
+
+subroutine suma(a,b,c,d,e,f)
+
+    implicit none
+
+    integer, intent(in) :: a
+    integer, intent(in) :: b
+    integer, intent(in) :: c
+    integer, intent(in) :: d
+    integer, intent(in) :: e
+    integer, intent(in) :: f
+
+    integer :: variable1, variable2, variable3, variable4, variable5
+    variable1 = a + b
+    variable2 = c + d
+    variable3 = e + f
+    variable4 = variable1 + variable2
+    variable5 = variable3 + variable4
+
+    print *, "Suma dentro de subroutine : "
+    print *, variable5
+
+end subroutine suma
+
+program compi
+
+    implicit none
+
+    !----------VARIABLES-------------
+    integer :: var1, var5, var6, var12, var13, var14, var15, var16, var17, var18, var19, var20, var21, var23
+    real :: var2, var7, var8, var22
+    logical :: var3, var9, var10, var11
+    character :: var4
+    !-----------ARRAYS--------------
+    integer, dimension(10) :: array1
+    integer :: array2(8)
+    real, dimension(7) :: array3
+    real :: array4(5)
+    character, dimension(12) :: array5
+    character :: array6(6)
+    integer :: array7(15)
+
+    print *, "OPERACIONES 1 ", 'INTEGER ', "REAL ", "CHARACTER ", "LOGICAL", "----------------------"
+    var1 = (1 + (24 / 8) ** (4 - 5) + 6) * (25 / 5)
+    var2 = ((1.0 + (24.0 / 8.0) * (4.0 - 5.0) + 6.0) * (25.0 / 5.0)) + ( 2 ** 6)
+    var3 = (.true. .or. .false.) .and. (.true. .and. .false. .or. .true.) .or. (.true. .or. .false. .or. (.true. .or. .false.))
+    var4 = 'G'
+    var5 = var1 + (2 * 2 / 2 + 4 - 1) * var1
+    var6 = var5 * 10 - 100
+    var7 = var2 - 15.2 * (var2 + var2)
+    var8 = var7 + 16.5 - 5.6 + 22.3 + (var7 * var7) / 2.0
+    var9 = 2==4 .or. 2/=4 .and. 3 .eq. 2 .or. 4 .ne. 4
+    var10 = 2 < 4 .or. 2 > 4 .and. 3 <= 2 .or. 4 >= 4
+    var11 = var9 .or. var10 .or. .true.
+
+    print *, var1
+    print *, var2
+    print *, var3
+    print *, var4
+    print *, var5
+    print *, var6
+    print *, var7
+    print *, var8
+    print *, var9
+    print *, var10
+    print *, var11
+
+    print *, "PRINT OPERACIONES 2 ", 'INTEGER ', "REAL ", "CHARACTER ", "LOGICAL", "----------------------"
+
+    print *, ((1)==(1)).and.((2==3).or.(1<=2))
+    print *, 'c' == "c"
+    print *, (12 > 2)
+    print *, (12 >= 2)
+    print *, (12 < 12)
+    print *, (12.0 <= 12.0)
+    print *, (12 .gt. 2)
+    print *, (12 .ge. 2)
+    print *, (12 .lt. 12)
+    print *, (12.0 .le. 12.0)
+    print *, (1 * (2 * 3) * (4 * 5) * 6) * (4 * 5)
+    print *, (1 + (2 + 3) + (4 + 5) + 6) + (4 + 5)
+    print *, (1 - (2 - 3) + (4 - 5) - 6) - (4 - 5)
+    print *, (1 + (24 / 8) * (4 - 5) + 6) * (25 / 5)
+    print *, "C ", (2+2*2), 'O ', (3+3*3), "M ", (4+4*4), 'P ', (5+5*5), "I"
+
+    print *, "ARRAYS ", 'INTEGER ', "REAL ", "CHARACTER", "----------------------"
+
+    array1 = (/ 10, 1, 9, 2, 8, 3, 7, 4, 6, 5 /)
+    array2[1] = 111
+    array2[3] = 222
+    array2[5] = 333
+    array2[7] = 444
+
+    print *, "TAMANIO ARRAY 1: "
+    print *, size(array1)
+    print *, "TAMANIO ARRAY 2: "
+    print *, size(array2)
+    print *, "ARRAY 1: "
+    print *, array1
+    print *, "ARRAY 2: "
+    print *, array2
+
+    array3 = (/ 1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7 /)
+    array4 = (/ 100.1, 200.2, 300.3, 400.3, 500.5 /)
+
+    print *, "TAMANIO ARRAY 3: "
+    print *, size(array3)
+    print *, "TAMANIO ARRAY 4: "
+    print *, size(array4)
+    print *, "ARRAY 3: "
+    print *, array3
+    print *, "ARRAY 4: "
+    print *, array4
+
+    array5 = (/ 'c', 'o', 'm', 'p', 'i', 'l', 'a', 'd', 'o', 'r', 'e', 's' /)
+    array6 = (/ 's', 'i', 's', 'a', 'l', 'e' /)
+
+    print *, "TAMANIO ARRAY 5: "
+    print *, size(array5)
+    print *, "TAMANIO ARRAY 6: "
+    print *, size(array6)
+    print *, "ARRAY 5: "
+    print *, array5
+    print *, "ARRAY 6: "
+    print *, array6
+
+    print *, "IF ELSE-IF ELSE", "----------------------"
+
+    var12 = 61
+
+    if(var12 > 1) then
+        print *, var12, " es > a ", 1
+    end if
+
+    if(var12 <= 50 ) then
+        print *, "NO DEBERIA DE IMPRMIR ESTO 1"
+    else if (var12 > 50) then
+        print *, var12, " es <= a ", 50
+    end if
+
+    if(var12 > 10 .and. var12 <= 25) then
+        print *, "NO DEBERIA DE IMPRMIR ESTO 2"
+    else if (var12 > 25 .and. var12 <= 60) then
+        print *, "NO DEBERIA DE IMPRMIR ESTO 3"
+    else
+        print *, "SI SALE ", "COMPI :)"
+    end if
+
+    print *, "ARRAY 1 CON DO", "----------------------"
+
+    do var13 = 1, size(array1), 1
+        print *, array1[var13]
+    end do
+
+    print *, "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "
+    print *, var13
+
+    print *, "ARRAY 3 CON DO", "----------------------"
+
+    do var13 = 1, size(array3), 1
+        print *, array3[var13]
+    end do
+
+    print *, "DEBERIA IMPRIMIR 8 EN LA SIGUIENTE LINEA -> "
+    print *, var13
+
+    print *, "ARRAY 5 CON DO", "----------------------"
+
+    do var13 = 1, size(array5), 1
+        print *, array5[var13]
+    end do
+
+    print *, "DEBERIA IMPRIMIR 13 EN LA SIGUIENTE LINEA -> "
+    print *, var13
+
+    print *, "ARRAY 2 CON DO WHILE", "----------------------"
+
+    var14 = 1
+    do while (var14 < 9)
+        print *, array2[var14]
+        var14 = var14 + 1
+    end do
+
+    print *, "DEBERIA IMPRIMIR 9 EN LA SIGUIENTE LINEA -> "
+    print *, var14
+
+    print *, "ARRAY 4 CON DO WHILE", "----------------------"
+
+    var14 = 1
+    do while (var14 <= 5)
+        print *, array4[var14]
+        var14 = var14 + 1
+    end do
+
+    print *, "DEBERIA IMPRIMIR 6 EN LA SIGUIENTE LINEA -> "
+    print *, var14
+
+    print *, "ARRAY 6 CON DO WHILE", "----------------------"
+
+    var14 = 1
+    do while (var14 < 7)
+        print *, array6[var14]
+        var14 = var14 + 1
+    end do
+
+    print *, "DEBERIA IMPRIMIR 7 EN LA SIGUIENTE LINEA -> "
+    print *, var14
+
+    print *, "CONTROL DE CICLOS EXIT CON DO", "----------------------"
+
+    do var15 = 1, 100, 2
+        if (var15 > 20) then
+            exit
+        end if
+        print *, var15
+    end do
+
+    print *, "DEBERIA IMPRIMIR 21 EN LA SIGUIENTE LINEA -> "
+    print *, var15
+
+    print *, "CONTROL DE CICLOS EXIT CON DO WHILE", "----------------------"
+
+    var15 = 1
+    do while (var15 < 100)
+        if (var15 > 10) then
+            exit
+        end if
+        print *, var15
+        var15 = var15 + 1
+    end do
+
+    print *, "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "
+    print *, var15
+
+    print *, "CONTROL DE CICLOS CYCLE CON DO", "----------------------"
+
+    do var16 = 1, 10, 1
+       if (var16 == 1 .or. var16 == 3 .or. var16 == 5 .or. var16 == 7 .or. var16 == 9) then
+           cycle
+       end if
+       print *, var16
+    end do
+
+    print *, "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "
+    print *, var16
+
+    print *, "CONTROL DE CICLOS CYCLE CON DO WHILE", "----------------------"
+
+    var17 = 1
+    do while (var17 < 11)
+        if (var17 == 2 .or. var17 == 4 .or. var17 == 6 .or. var17 == 8 .or. var17 == 10) then
+            var17 = var17 + 1
+            cycle
+        end if
+        print *, var17
+        var17 = var17 + 1
+    end do
+
+    print *, "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "
+    print *, var17
+
+    print *, "CICLO DO ANIDADO, CON EXIT Y CYCLE", "----------------------"
+    do var18 = 1, 10, 2
+        do var19 = 1, 10, 2
+            if(var19 > 5) then
+                exit
+            else
+                print *, "b"
+            end if
+            print *, var19
+        end do
+        if(var18 < 5) then
+            print *, "a"
+        else
+            cycle
+        end if
+        print *, var18
+    end do
+
+    print *, "----------------------", "SUBROUTINE SUMA LLAMADA 1", "----------------------"
+    call suma(1,2,3,4,5,6)
+    print *, " "
+
+    print *, "----------------------", "SUBROUTINE IMPRIMIR_HOLA_MUNDO 1", "----------------------"
+    call imprimir_hola_mundo()
+    print *, " "
+
+    print *, "----------------------", "SUBROUTINE SUMA LLAMADA 2", "----------------------"
+    call suma(2+2,3+3,4+4,5+5,6+6,7+7)
+    print *, " "
+
+    print *, "----------------------", "FUNCION MULTIPLICACION", "----------------------"
+    print *, "Multiplicacion: "
+    var21 =  multiplicacion(1,2,3,4,5,6)
+    print *, var21
+    print *, " "
+
+    print *, "----------------------", "FUNCION OPERACION", "----------------------"
+    print *, "Operacion: "
+    var22 = operacion()
+    print *, var22
+
+    print *, "----------------------", "FUNCION MULTIPLICACION", "----------------------"
+    print *, "Multiplicacion: "
+    var23 =  multiplicacion(1+2,2+3,3+4,4+5,5+7,6+7)
+    print *, var23
+    print *, " "
+
+end program compi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2559 @@
+digraph G { 
+Parse10000[label = "Parse"];
+funcion10001[label = "funcion"];
+Parse10000->funcion10001
+funcion10002[label = "multiplicacion"];
+funcion10001->funcion10002
+lparametros10003[label = "lparametros"];
+funcion10001->lparametros10003
+lparametros10004[label = "a"];
+lparametros10003->lparametros10004
+lparametros10005[label = "b"];
+lparametros10003->lparametros10005
+lparametros10006[label = "c"];
+lparametros10003->lparametros10006
+lparametros10007[label = "d"];
+lparametros10003->lparametros10007
+lparametros10008[label = "e"];
+lparametros10003->lparametros10008
+lparametros10009[label = "f"];
+lparametros10003->lparametros10009
+result10010[label = "result"];
+funcion10001->result10010
+result10011[label = "resultado"];
+result10010->result10011
+ldeclaraciones10012[label = "ldeclaraciones"];
+funcion10001->ldeclaraciones10012
+declaracion10013[label = "declaracion"];
+ldeclaraciones10012->declaracion10013
+tipo10014[label = "integer"];
+declaracion10013->tipo10014
+variable10015[label = "variable"];
+declaracion10013->variable10015
+variable10016[label = "a"];
+variable10015->variable10016
+declaracion10017[label = "declaracion"];
+ldeclaraciones10012->declaracion10017
+tipo10018[label = "integer"];
+declaracion10017->tipo10018
+variable10019[label = "variable"];
+declaracion10017->variable10019
+variable10020[label = "b"];
+variable10019->variable10020
+declaracion10021[label = "declaracion"];
+ldeclaraciones10012->declaracion10021
+tipo10022[label = "integer"];
+declaracion10021->tipo10022
+variable10023[label = "variable"];
+declaracion10021->variable10023
+variable10024[label = "c"];
+variable10023->variable10024
+declaracion10025[label = "declaracion"];
+ldeclaraciones10012->declaracion10025
+tipo10026[label = "integer"];
+declaracion10025->tipo10026
+variable10027[label = "variable"];
+declaracion10025->variable10027
+variable10028[label = "d"];
+variable10027->variable10028
+declaracion10029[label = "declaracion"];
+ldeclaraciones10012->declaracion10029
+tipo10030[label = "integer"];
+declaracion10029->tipo10030
+variable10031[label = "variable"];
+declaracion10029->variable10031
+variable10032[label = "e"];
+variable10031->variable10032
+declaracion10033[label = "declaracion"];
+ldeclaraciones10012->declaracion10033
+tipo10034[label = "integer"];
+declaracion10033->tipo10034
+variable10035[label = "variable"];
+declaracion10033->variable10035
+variable10036[label = "f"];
+variable10035->variable10036
+linstrucciones10037[label = "linstrucciones"];
+funcion10001->linstrucciones10037
+declarationVar10038[label = "declarationVar"];
+linstrucciones10037->declarationVar10038
+integer10039[label = "integer"];
+declarationVar10038->integer10039
+resultado10040[label = "resultado"];
+declarationVar10038->resultado10040
+declarationVar10041[label = "declarationVar"];
+linstrucciones10037->declarationVar10041
+integer10042[label = "integer"];
+declarationVar10041->integer10042
+variable110043[label = "variable1"];
+declarationVar10041->variable110043
+declarationVar10044[label = "declarationVar"];
+declarationVar10041->declarationVar10044
+variable210045[label = "variable2"];
+declarationVar10044->variable210045
+declarationVar10046[label = "declarationVar"];
+declarationVar10044->declarationVar10046
+variable310047[label = "variable3"];
+declarationVar10046->variable310047
+declarationVar10048[label = "declarationVar"];
+declarationVar10046->declarationVar10048
+variable410049[label = "variable4"];
+declarationVar10048->variable410049
+declarationVar10050[label = "declarationVar"];
+declarationVar10048->declarationVar10050
+variable510051[label = "variable5"];
+declarationVar10050->variable510051
+asigvar10052[label = "asignacionVar"];
+linstrucciones10037->asigvar10052
+asigvar10053[label = "variable1"];
+asigvar10052->asigvar10053
+por10054[label = "*"];
+asigvar10052->por10054
+por10055[label = "a"];
+por10054->por10055
+por10056[label = "b"];
+por10054->por10056
+asigvar10057[label = "asignacionVar"];
+linstrucciones10037->asigvar10057
+asigvar10058[label = "variable2"];
+asigvar10057->asigvar10058
+por10059[label = "*"];
+asigvar10057->por10059
+por10060[label = "c"];
+por10059->por10060
+por10061[label = "d"];
+por10059->por10061
+asigvar10062[label = "asignacionVar"];
+linstrucciones10037->asigvar10062
+asigvar10063[label = "variable3"];
+asigvar10062->asigvar10063
+por10064[label = "*"];
+asigvar10062->por10064
+por10065[label = "e"];
+por10064->por10065
+por10066[label = "f"];
+por10064->por10066
+asigvar10067[label = "asignacionVar"];
+linstrucciones10037->asigvar10067
+asigvar10068[label = "variable4"];
+asigvar10067->asigvar10068
+por10069[label = "*"];
+asigvar10067->por10069
+por10070[label = "variable1"];
+por10069->por10070
+por10071[label = "variable2"];
+por10069->por10071
+asigvar10072[label = "asignacionVar"];
+linstrucciones10037->asigvar10072
+asigvar10073[label = "variable5"];
+asigvar10072->asigvar10073
+por10074[label = "*"];
+asigvar10072->por10074
+por10075[label = "variable3"];
+por10074->por10075
+por10076[label = "variable4"];
+por10074->por10076
+asigvar10077[label = "asignacionVar"];
+linstrucciones10037->asigvar10077
+asigvar10078[label = "resultado"];
+asigvar10077->asigvar10078
+asigvar10079[label = "variable5"];
+asigvar10077->asigvar10079
+print10080[label = "print"];
+linstrucciones10037->print10080
+var10081[label = "Multiplicacion dentro de subroutine : "];
+print10080->var10081
+print10082[label = "print"];
+linstrucciones10037->print10082
+var10083[label = "resultado"];
+print10082->var10083
+subroutine10084[label = "multiplicacion"];
+funcion10001->subroutine10084
+funcion10085[label = "funcion"];
+Parse10000->funcion10085
+funcion10086[label = "operacion"];
+funcion10085->funcion10086
+lparametros10087[label = "lparametros"];
+funcion10085->lparametros10087
+result10088[label = "result"];
+funcion10085->result10088
+result10089[label = "resultado"];
+result10088->result10089
+ldeclaraciones10090[label = "ldeclaraciones"];
+funcion10085->ldeclaraciones10090
+linstrucciones10091[label = "linstrucciones"];
+funcion10085->linstrucciones10091
+declarationVar10092[label = "declarationVar"];
+linstrucciones10091->declarationVar10092
+real10093[label = "real"];
+declarationVar10092->real10093
+resultado10094[label = "resultado"];
+declarationVar10092->resultado10094
+asigvar10095[label = "asignacionVar"];
+linstrucciones10091->asigvar10095
+asigvar10096[label = "resultado"];
+asigvar10095->asigvar10096
+por10097[label = "*"];
+asigvar10095->por10097
+por10098[label = "*"];
+por10097->por10098
+por10099[label = "*"];
+por10098->por10099
+por10100[label = "10.0"];
+por10099->por10100
+por10101[label = "20.0"];
+por10099->por10101
+por10102[label = "30.0"];
+por10098->por10102
+por10103[label = "40.0"];
+por10097->por10103
+print10104[label = "print"];
+linstrucciones10091->print10104
+var10105[label = "Operacion dentro de subroutine : "];
+print10104->var10105
+print10106[label = "print"];
+linstrucciones10091->print10106
+var10107[label = "resultado"];
+print10106->var10107
+subroutine10108[label = "operacion"];
+funcion10085->subroutine10108
+subroutine10109[label = "subroutine"];
+Parse10000->subroutine10109
+subroutine10110[label = "imprimir_hola_mundo"];
+subroutine10109->subroutine10110
+lparametros10111[label = "lparametros"];
+subroutine10109->lparametros10111
+ldeclaraciones10112[label = "ldeclaraciones"];
+subroutine10109->ldeclaraciones10112
+linstrucciones10113[label = "linstrucciones"];
+subroutine10109->linstrucciones10113
+asigarray10114[label = "decArrExtenso"];
+linstrucciones10113->asigarray10114
+asigarray10115[label = "character"];
+asigarray10114->asigarray10115
+asigarray10116[label = "10"];
+asigarray10114->asigarray10116
+asigarray10117[label = "array1"];
+asigarray10114->asigarray10117
+asigarraylist10118[label = "asigArrList"];
+linstrucciones10113->asigarraylist10118
+asigarraylist10119[label = "array1"];
+asigarraylist10118->asigarraylist10119
+asigarraylist10120[label = "h"];
+asigarraylist10118->asigarraylist10120
+asigarraylist10121[label = "o"];
+asigarraylist10118->asigarraylist10121
+asigarraylist10122[label = "l"];
+asigarraylist10118->asigarraylist10122
+asigarraylist10123[label = "a"];
+asigarraylist10118->asigarraylist10123
+asigarraylist10124[label = " "];
+asigarraylist10118->asigarraylist10124
+asigarraylist10125[label = "m"];
+asigarraylist10118->asigarraylist10125
+asigarraylist10126[label = "u"];
+asigarraylist10118->asigarraylist10126
+asigarraylist10127[label = "n"];
+asigarraylist10118->asigarraylist10127
+asigarraylist10128[label = "d"];
+asigarraylist10118->asigarraylist10128
+asigarraylist10129[label = "o"];
+asigarraylist10118->asigarraylist10129
+print10130[label = "print"];
+linstrucciones10113->print10130
+var10131[label = "TAMANIO ARRAY 1: "];
+print10130->var10131
+print10132[label = "print"];
+linstrucciones10113->print10132
+size10133[label = "size"];
+print10132->size10133
+size10134[label = "array1"];
+size10133->size10134
+print10135[label = "print"];
+linstrucciones10113->print10135
+var10136[label = "ARRAY 1: "];
+print10135->var10136
+print10137[label = "print"];
+linstrucciones10113->print10137
+var10138[label = "array1"];
+print10137->var10138
+subroutine10139[label = "imprimir_hola_mundo"];
+subroutine10109->subroutine10139
+subroutine10140[label = "subroutine"];
+Parse10000->subroutine10140
+subroutine10141[label = "suma"];
+subroutine10140->subroutine10141
+lparametros10142[label = "lparametros"];
+subroutine10140->lparametros10142
+lparametros10143[label = "a"];
+lparametros10142->lparametros10143
+lparametros10144[label = "b"];
+lparametros10142->lparametros10144
+lparametros10145[label = "c"];
+lparametros10142->lparametros10145
+lparametros10146[label = "d"];
+lparametros10142->lparametros10146
+lparametros10147[label = "e"];
+lparametros10142->lparametros10147
+lparametros10148[label = "f"];
+lparametros10142->lparametros10148
+ldeclaraciones10149[label = "ldeclaraciones"];
+subroutine10140->ldeclaraciones10149
+declaracion10150[label = "declaracion"];
+ldeclaraciones10149->declaracion10150
+tipo10151[label = "integer"];
+declaracion10150->tipo10151
+variable10152[label = "variable"];
+declaracion10150->variable10152
+variable10153[label = "a"];
+variable10152->variable10153
+declaracion10154[label = "declaracion"];
+ldeclaraciones10149->declaracion10154
+tipo10155[label = "integer"];
+declaracion10154->tipo10155
+variable10156[label = "variable"];
+declaracion10154->variable10156
+variable10157[label = "b"];
+variable10156->variable10157
+declaracion10158[label = "declaracion"];
+ldeclaraciones10149->declaracion10158
+tipo10159[label = "integer"];
+declaracion10158->tipo10159
+variable10160[label = "variable"];
+declaracion10158->variable10160
+variable10161[label = "c"];
+variable10160->variable10161
+declaracion10162[label = "declaracion"];
+ldeclaraciones10149->declaracion10162
+tipo10163[label = "integer"];
+declaracion10162->tipo10163
+variable10164[label = "variable"];
+declaracion10162->variable10164
+variable10165[label = "d"];
+variable10164->variable10165
+declaracion10166[label = "declaracion"];
+ldeclaraciones10149->declaracion10166
+tipo10167[label = "integer"];
+declaracion10166->tipo10167
+variable10168[label = "variable"];
+declaracion10166->variable10168
+variable10169[label = "e"];
+variable10168->variable10169
+declaracion10170[label = "declaracion"];
+ldeclaraciones10149->declaracion10170
+tipo10171[label = "integer"];
+declaracion10170->tipo10171
+variable10172[label = "variable"];
+declaracion10170->variable10172
+variable10173[label = "f"];
+variable10172->variable10173
+linstrucciones10174[label = "linstrucciones"];
+subroutine10140->linstrucciones10174
+declarationVar10175[label = "declarationVar"];
+linstrucciones10174->declarationVar10175
+integer10176[label = "integer"];
+declarationVar10175->integer10176
+variable110177[label = "variable1"];
+declarationVar10175->variable110177
+declarationVar10178[label = "declarationVar"];
+declarationVar10175->declarationVar10178
+variable210179[label = "variable2"];
+declarationVar10178->variable210179
+declarationVar10180[label = "declarationVar"];
+declarationVar10178->declarationVar10180
+variable310181[label = "variable3"];
+declarationVar10180->variable310181
+declarationVar10182[label = "declarationVar"];
+declarationVar10180->declarationVar10182
+variable410183[label = "variable4"];
+declarationVar10182->variable410183
+declarationVar10184[label = "declarationVar"];
+declarationVar10182->declarationVar10184
+variable510185[label = "variable5"];
+declarationVar10184->variable510185
+asigvar10186[label = "asignacionVar"];
+linstrucciones10174->asigvar10186
+asigvar10187[label = "variable1"];
+asigvar10186->asigvar10187
+mas10188[label = "+"];
+asigvar10186->mas10188
+mas10189[label = "a"];
+mas10188->mas10189
+mas10190[label = "b"];
+mas10188->mas10190
+asigvar10191[label = "asignacionVar"];
+linstrucciones10174->asigvar10191
+asigvar10192[label = "variable2"];
+asigvar10191->asigvar10192
+mas10193[label = "+"];
+asigvar10191->mas10193
+mas10194[label = "c"];
+mas10193->mas10194
+mas10195[label = "d"];
+mas10193->mas10195
+asigvar10196[label = "asignacionVar"];
+linstrucciones10174->asigvar10196
+asigvar10197[label = "variable3"];
+asigvar10196->asigvar10197
+mas10198[label = "+"];
+asigvar10196->mas10198
+mas10199[label = "e"];
+mas10198->mas10199
+mas10200[label = "f"];
+mas10198->mas10200
+asigvar10201[label = "asignacionVar"];
+linstrucciones10174->asigvar10201
+asigvar10202[label = "variable4"];
+asigvar10201->asigvar10202
+mas10203[label = "+"];
+asigvar10201->mas10203
+mas10204[label = "variable1"];
+mas10203->mas10204
+mas10205[label = "variable2"];
+mas10203->mas10205
+asigvar10206[label = "asignacionVar"];
+linstrucciones10174->asigvar10206
+asigvar10207[label = "variable5"];
+asigvar10206->asigvar10207
+mas10208[label = "+"];
+asigvar10206->mas10208
+mas10209[label = "variable3"];
+mas10208->mas10209
+mas10210[label = "variable4"];
+mas10208->mas10210
+print10211[label = "print"];
+linstrucciones10174->print10211
+var10212[label = "Suma dentro de subroutine : "];
+print10211->var10212
+print10213[label = "print"];
+linstrucciones10174->print10213
+var10214[label = "variable5"];
+print10213->var10214
+subroutine10215[label = "suma"];
+subroutine10140->subroutine10215
+program10216[label = "program"];
+Parse10000->program10216
+program10217[label = "compi"];
+program10216->program10217
+linstrucciones10218[label = "linstrucciones"];
+program10216->linstrucciones10218
+declarationVar10219[label = "declarationVar"];
+linstrucciones10218->declarationVar10219
+integer10220[label = "integer"];
+declarationVar10219->integer10220
+var110221[label = "var1"];
+declarationVar10219->var110221
+declarationVar10222[label = "declarationVar"];
+declarationVar10219->declarationVar10222
+var510223[label = "var5"];
+declarationVar10222->var510223
+declarationVar10224[label = "declarationVar"];
+declarationVar10222->declarationVar10224
+var610225[label = "var6"];
+declarationVar10224->var610225
+declarationVar10226[label = "declarationVar"];
+declarationVar10224->declarationVar10226
+var1210227[label = "var12"];
+declarationVar10226->var1210227
+declarationVar10228[label = "declarationVar"];
+declarationVar10226->declarationVar10228
+var1310229[label = "var13"];
+declarationVar10228->var1310229
+declarationVar10230[label = "declarationVar"];
+declarationVar10228->declarationVar10230
+var1410231[label = "var14"];
+declarationVar10230->var1410231
+declarationVar10232[label = "declarationVar"];
+declarationVar10230->declarationVar10232
+var1510233[label = "var15"];
+declarationVar10232->var1510233
+declarationVar10234[label = "declarationVar"];
+declarationVar10232->declarationVar10234
+var1610235[label = "var16"];
+declarationVar10234->var1610235
+declarationVar10236[label = "declarationVar"];
+declarationVar10234->declarationVar10236
+var1710237[label = "var17"];
+declarationVar10236->var1710237
+declarationVar10238[label = "declarationVar"];
+declarationVar10236->declarationVar10238
+var1810239[label = "var18"];
+declarationVar10238->var1810239
+declarationVar10240[label = "declarationVar"];
+declarationVar10238->declarationVar10240
+var1910241[label = "var19"];
+declarationVar10240->var1910241
+declarationVar10242[label = "declarationVar"];
+declarationVar10240->declarationVar10242
+var2010243[label = "var20"];
+declarationVar10242->var2010243
+declarationVar10244[label = "declarationVar"];
+declarationVar10242->declarationVar10244
+var2110245[label = "var21"];
+declarationVar10244->var2110245
+declarationVar10246[label = "declarationVar"];
+declarationVar10244->declarationVar10246
+var2310247[label = "var23"];
+declarationVar10246->var2310247
+declarationVar10248[label = "declarationVar"];
+linstrucciones10218->declarationVar10248
+real10249[label = "real"];
+declarationVar10248->real10249
+var210250[label = "var2"];
+declarationVar10248->var210250
+declarationVar10251[label = "declarationVar"];
+declarationVar10248->declarationVar10251
+var710252[label = "var7"];
+declarationVar10251->var710252
+declarationVar10253[label = "declarationVar"];
+declarationVar10251->declarationVar10253
+var810254[label = "var8"];
+declarationVar10253->var810254
+declarationVar10255[label = "declarationVar"];
+declarationVar10253->declarationVar10255
+var2210256[label = "var22"];
+declarationVar10255->var2210256
+declarationVar10257[label = "declarationVar"];
+linstrucciones10218->declarationVar10257
+logical10258[label = "logical"];
+declarationVar10257->logical10258
+var310259[label = "var3"];
+declarationVar10257->var310259
+declarationVar10260[label = "declarationVar"];
+declarationVar10257->declarationVar10260
+var910261[label = "var9"];
+declarationVar10260->var910261
+declarationVar10262[label = "declarationVar"];
+declarationVar10260->declarationVar10262
+var1010263[label = "var10"];
+declarationVar10262->var1010263
+declarationVar10264[label = "declarationVar"];
+declarationVar10262->declarationVar10264
+var1110265[label = "var11"];
+declarationVar10264->var1110265
+declarationVar10266[label = "declarationVar"];
+linstrucciones10218->declarationVar10266
+character10267[label = "character"];
+declarationVar10266->character10267
+var410268[label = "var4"];
+declarationVar10266->var410268
+asigarray10269[label = "decArrExtenso"];
+linstrucciones10218->asigarray10269
+asigarray10270[label = "integer"];
+asigarray10269->asigarray10270
+asigarray10271[label = "10"];
+asigarray10269->asigarray10271
+asigarray10272[label = "array1"];
+asigarray10269->asigarray10272
+asigarray10273[label = "decArrCorto"];
+linstrucciones10218->asigarray10273
+asigarray10274[label = "integer"];
+asigarray10273->asigarray10274
+asigarray10275[label = "array2"];
+asigarray10273->asigarray10275
+asigarray10276[label = "8"];
+asigarray10273->asigarray10276
+asigarray10277[label = "decArrExtenso"];
+linstrucciones10218->asigarray10277
+asigarray10278[label = "real"];
+asigarray10277->asigarray10278
+asigarray10279[label = "7"];
+asigarray10277->asigarray10279
+asigarray10280[label = "array3"];
+asigarray10277->asigarray10280
+asigarray10281[label = "decArrCorto"];
+linstrucciones10218->asigarray10281
+asigarray10282[label = "real"];
+asigarray10281->asigarray10282
+asigarray10283[label = "array4"];
+asigarray10281->asigarray10283
+asigarray10284[label = "5"];
+asigarray10281->asigarray10284
+asigarray10285[label = "decArrExtenso"];
+linstrucciones10218->asigarray10285
+asigarray10286[label = "character"];
+asigarray10285->asigarray10286
+asigarray10287[label = "12"];
+asigarray10285->asigarray10287
+asigarray10288[label = "array5"];
+asigarray10285->asigarray10288
+asigarray10289[label = "decArrCorto"];
+linstrucciones10218->asigarray10289
+asigarray10290[label = "character"];
+asigarray10289->asigarray10290
+asigarray10291[label = "array6"];
+asigarray10289->asigarray10291
+asigarray10292[label = "6"];
+asigarray10289->asigarray10292
+asigarray10293[label = "decArrCorto"];
+linstrucciones10218->asigarray10293
+asigarray10294[label = "integer"];
+asigarray10293->asigarray10294
+asigarray10295[label = "array7"];
+asigarray10293->asigarray10295
+asigarray10296[label = "15"];
+asigarray10293->asigarray10296
+print10297[label = "print"];
+linstrucciones10218->print10297
+var10298[label = "OPERACIONES 1 "];
+print10297->var10298
+print10299[label = "print"];
+print10297->print10299
+var10300[label = "INTEGER "];
+print10299->var10300
+print10301[label = "print"];
+print10299->print10301
+var10302[label = "REAL "];
+print10301->var10302
+print10303[label = "print"];
+print10301->print10303
+var10304[label = "CHARACTER "];
+print10303->var10304
+print10305[label = "print"];
+print10303->print10305
+var10306[label = "LOGICAL"];
+print10305->var10306
+print10307[label = "print"];
+print10305->print10307
+var10308[label = "----------------------"];
+print10307->var10308
+asigvar10309[label = "asignacionVar"];
+linstrucciones10218->asigvar10309
+asigvar10310[label = "var1"];
+asigvar10309->asigvar10310
+por10311[label = "*"];
+asigvar10309->por10311
+mas10312[label = "+"];
+por10311->mas10312
+mas10313[label = "+"];
+mas10312->mas10313
+mas10314[label = "1"];
+mas10313->mas10314
+pow10315[label = "**"];
+mas10313->pow10315
+div10316[label = "/"];
+pow10315->div10316
+div10317[label = "24"];
+div10316->div10317
+div10318[label = "8"];
+div10316->div10318
+menos10319[label = "-"];
+pow10315->menos10319
+menos10320[label = "4"];
+menos10319->menos10320
+menos10321[label = "5"];
+menos10319->menos10321
+mas10322[label = "6"];
+mas10312->mas10322
+div10323[label = "/"];
+por10311->div10323
+div10324[label = "25"];
+div10323->div10324
+div10325[label = "5"];
+div10323->div10325
+asigvar10326[label = "asignacionVar"];
+linstrucciones10218->asigvar10326
+asigvar10327[label = "var2"];
+asigvar10326->asigvar10327
+mas10328[label = "+"];
+asigvar10326->mas10328
+por10329[label = "*"];
+mas10328->por10329
+mas10330[label = "+"];
+por10329->mas10330
+mas10331[label = "+"];
+mas10330->mas10331
+mas10332[label = "1.0"];
+mas10331->mas10332
+por10333[label = "*"];
+mas10331->por10333
+div10334[label = "/"];
+por10333->div10334
+div10335[label = "24.0"];
+div10334->div10335
+div10336[label = "8.0"];
+div10334->div10336
+menos10337[label = "-"];
+por10333->menos10337
+menos10338[label = "4.0"];
+menos10337->menos10338
+menos10339[label = "5.0"];
+menos10337->menos10339
+mas10340[label = "6.0"];
+mas10330->mas10340
+div10341[label = "/"];
+por10329->div10341
+div10342[label = "25.0"];
+div10341->div10342
+div10343[label = "5.0"];
+div10341->div10343
+pow10344[label = "**"];
+mas10328->pow10344
+pow10345[label = "2"];
+pow10344->pow10345
+pow10346[label = "6"];
+pow10344->pow10346
+asigvar10347[label = "asignacionVar"];
+linstrucciones10218->asigvar10347
+asigvar10348[label = "var3"];
+asigvar10347->asigvar10348
+or10349[label = ".or."];
+asigvar10347->or10349
+and10350[label = ".and."];
+or10349->and10350
+or10351[label = ".or."];
+and10350->or10351
+or10352[label = ".true."];
+or10351->or10352
+or10353[label = ".false."];
+or10351->or10353
+or10354[label = ".or."];
+and10350->or10354
+and10355[label = ".and."];
+or10354->and10355
+and10356[label = ".true."];
+and10355->and10356
+and10357[label = ".false."];
+and10355->and10357
+or10358[label = ".true."];
+or10354->or10358
+or10359[label = ".or."];
+or10349->or10359
+or10360[label = ".or."];
+or10359->or10360
+or10361[label = ".true."];
+or10360->or10361
+or10362[label = ".false."];
+or10360->or10362
+or10363[label = ".or."];
+or10359->or10363
+or10364[label = ".true."];
+or10363->or10364
+or10365[label = ".false."];
+or10363->or10365
+asigvar10366[label = "asignacionVar"];
+linstrucciones10218->asigvar10366
+asigvar10367[label = "var4"];
+asigvar10366->asigvar10367
+asigvar10368[label = "G"];
+asigvar10366->asigvar10368
+asigvar10369[label = "asignacionVar"];
+linstrucciones10218->asigvar10369
+asigvar10370[label = "var5"];
+asigvar10369->asigvar10370
+mas10371[label = "+"];
+asigvar10369->mas10371
+mas10372[label = "var1"];
+mas10371->mas10372
+por10373[label = "*"];
+mas10371->por10373
+menos10374[label = "-"];
+por10373->menos10374
+mas10375[label = "+"];
+menos10374->mas10375
+div10376[label = "/"];
+mas10375->div10376
+por10377[label = "*"];
+div10376->por10377
+por10378[label = "2"];
+por10377->por10378
+por10379[label = "2"];
+por10377->por10379
+div10380[label = "2"];
+div10376->div10380
+mas10381[label = "4"];
+mas10375->mas10381
+menos10382[label = "1"];
+menos10374->menos10382
+por10383[label = "var1"];
+por10373->por10383
+asigvar10384[label = "asignacionVar"];
+linstrucciones10218->asigvar10384
+asigvar10385[label = "var6"];
+asigvar10384->asigvar10385
+menos10386[label = "-"];
+asigvar10384->menos10386
+por10387[label = "*"];
+menos10386->por10387
+por10388[label = "var5"];
+por10387->por10388
+por10389[label = "10"];
+por10387->por10389
+menos10390[label = "100"];
+menos10386->menos10390
+asigvar10391[label = "asignacionVar"];
+linstrucciones10218->asigvar10391
+asigvar10392[label = "var7"];
+asigvar10391->asigvar10392
+menos10393[label = "-"];
+asigvar10391->menos10393
+menos10394[label = "var2"];
+menos10393->menos10394
+por10395[label = "*"];
+menos10393->por10395
+por10396[label = "15.2"];
+por10395->por10396
+mas10397[label = "+"];
+por10395->mas10397
+mas10398[label = "var2"];
+mas10397->mas10398
+mas10399[label = "var2"];
+mas10397->mas10399
+asigvar10400[label = "asignacionVar"];
+linstrucciones10218->asigvar10400
+asigvar10401[label = "var8"];
+asigvar10400->asigvar10401
+mas10402[label = "+"];
+asigvar10400->mas10402
+mas10403[label = "+"];
+mas10402->mas10403
+menos10404[label = "-"];
+mas10403->menos10404
+mas10405[label = "+"];
+menos10404->mas10405
+mas10406[label = "var7"];
+mas10405->mas10406
+mas10407[label = "16.5"];
+mas10405->mas10407
+menos10408[label = "5.6"];
+menos10404->menos10408
+mas10409[label = "22.3"];
+mas10403->mas10409
+div10410[label = "/"];
+mas10402->div10410
+por10411[label = "*"];
+div10410->por10411
+por10412[label = "var7"];
+por10411->por10412
+por10413[label = "var7"];
+por10411->por10413
+div10414[label = "2.0"];
+div10410->div10414
+asigvar10415[label = "asignacionVar"];
+linstrucciones10218->asigvar10415
+asigvar10416[label = "var9"];
+asigvar10415->asigvar10416
+or10417[label = ".or."];
+asigvar10415->or10417
+or10418[label = ".or."];
+or10417->or10418
+igualigual10419[label = "=="];
+or10418->igualigual10419
+igualigual10420[label = "2"];
+igualigual10419->igualigual10420
+menos10421[label = "4"];
+igualigual10419->menos10421
+and10422[label = ".and."];
+or10418->and10422
+difigual10423[label = "/="];
+and10422->difigual10423
+difigual10424[label = "2"];
+difigual10423->difigual10424
+difigual10425[label = "4"];
+difigual10423->difigual10425
+igualigual10426[label = ".eq."];
+and10422->igualigual10426
+igualigual10427[label = "3"];
+igualigual10426->igualigual10427
+menos10428[label = "2"];
+igualigual10426->menos10428
+difigual10429[label = ".ne."];
+or10417->difigual10429
+difigual10430[label = "4"];
+difigual10429->difigual10430
+difigual10431[label = "4"];
+difigual10429->difigual10431
+asigvar10432[label = "asignacionVar"];
+linstrucciones10218->asigvar10432
+asigvar10433[label = "var10"];
+asigvar10432->asigvar10433
+or10434[label = ".or."];
+asigvar10432->or10434
+or10435[label = ".or."];
+or10434->or10435
+menor10436[label = "<"];
+or10435->menor10436
+menor10437[label = "2"];
+menor10436->menor10437
+menor10438[label = "4"];
+menor10436->menor10438
+and10439[label = ".and."];
+or10435->and10439
+mayor10440[label = ">"];
+and10439->mayor10440
+mayor10441[label = "2"];
+mayor10440->mayor10441
+mayor10442[label = "4"];
+mayor10440->mayor10442
+menorque10443[label = "<="];
+and10439->menorque10443
+menorque10444[label = "3"];
+menorque10443->menorque10444
+menorque10445[label = "2"];
+menorque10443->menorque10445
+mayorque10446[label = ">="];
+or10434->mayorque10446
+mayorque10447[label = "4"];
+mayorque10446->mayorque10447
+mayorque10448[label = "4"];
+mayorque10446->mayorque10448
+asigvar10449[label = "asignacionVar"];
+linstrucciones10218->asigvar10449
+asigvar10450[label = "var11"];
+asigvar10449->asigvar10450
+or10451[label = ".or."];
+asigvar10449->or10451
+or10452[label = ".or."];
+or10451->or10452
+or10453[label = "var9"];
+or10452->or10453
+or10454[label = "var10"];
+or10452->or10454
+or10455[label = ".true."];
+or10451->or10455
+print10456[label = "print"];
+linstrucciones10218->print10456
+var10457[label = "var1"];
+print10456->var10457
+print10458[label = "print"];
+linstrucciones10218->print10458
+var10459[label = "var2"];
+print10458->var10459
+print10460[label = "print"];
+linstrucciones10218->print10460
+var10461[label = "var3"];
+print10460->var10461
+print10462[label = "print"];
+linstrucciones10218->print10462
+var10463[label = "var4"];
+print10462->var10463
+print10464[label = "print"];
+linstrucciones10218->print10464
+var10465[label = "var5"];
+print10464->var10465
+print10466[label = "print"];
+linstrucciones10218->print10466
+var10467[label = "var6"];
+print10466->var10467
+print10468[label = "print"];
+linstrucciones10218->print10468
+var10469[label = "var7"];
+print10468->var10469
+print10470[label = "print"];
+linstrucciones10218->print10470
+var10471[label = "var8"];
+print10470->var10471
+print10472[label = "print"];
+linstrucciones10218->print10472
+var10473[label = "var9"];
+print10472->var10473
+print10474[label = "print"];
+linstrucciones10218->print10474
+var10475[label = "var10"];
+print10474->var10475
+print10476[label = "print"];
+linstrucciones10218->print10476
+var10477[label = "var11"];
+print10476->var10477
+print10478[label = "print"];
+linstrucciones10218->print10478
+var10479[label = "PRINT OPERACIONES 2 "];
+print10478->var10479
+print10480[label = "print"];
+print10478->print10480
+var10481[label = "INTEGER "];
+print10480->var10481
+print10482[label = "print"];
+print10480->print10482
+var10483[label = "REAL "];
+print10482->var10483
+print10484[label = "print"];
+print10482->print10484
+var10485[label = "CHARACTER "];
+print10484->var10485
+print10486[label = "print"];
+print10484->print10486
+var10487[label = "LOGICAL"];
+print10486->var10487
+print10488[label = "print"];
+print10486->print10488
+var10489[label = "----------------------"];
+print10488->var10489
+print10490[label = "print"];
+linstrucciones10218->print10490
+and10491[label = ".and."];
+print10490->and10491
+igualigual10492[label = "=="];
+and10491->igualigual10492
+or10493[label = ".or."];
+and10491->or10493
+igualigual10494[label = "=="];
+or10493->igualigual10494
+igualigual10495[label = "2"];
+igualigual10494->igualigual10495
+menos10496[label = "3"];
+igualigual10494->menos10496
+menorque10497[label = "<="];
+or10493->menorque10497
+menorque10498[label = "1"];
+menorque10497->menorque10498
+menorque10499[label = "2"];
+menorque10497->menorque10499
+print10500[label = "print"];
+linstrucciones10218->print10500
+igualigual10501[label = "=="];
+print10500->igualigual10501
+igualigual10502[label = "c"];
+igualigual10501->igualigual10502
+menos10503[label = "c"];
+igualigual10501->menos10503
+print10504[label = "print"];
+linstrucciones10218->print10504
+mayor10505[label = ">"];
+print10504->mayor10505
+mayor10506[label = "12"];
+mayor10505->mayor10506
+mayor10507[label = "2"];
+mayor10505->mayor10507
+print10508[label = "print"];
+linstrucciones10218->print10508
+mayorque10509[label = ">="];
+print10508->mayorque10509
+mayorque10510[label = "12"];
+mayorque10509->mayorque10510
+mayorque10511[label = "2"];
+mayorque10509->mayorque10511
+print10512[label = "print"];
+linstrucciones10218->print10512
+menor10513[label = "<"];
+print10512->menor10513
+menor10514[label = "12"];
+menor10513->menor10514
+menor10515[label = "12"];
+menor10513->menor10515
+print10516[label = "print"];
+linstrucciones10218->print10516
+menorque10517[label = "<="];
+print10516->menorque10517
+menorque10518[label = "12.0"];
+menorque10517->menorque10518
+menorque10519[label = "12.0"];
+menorque10517->menorque10519
+print10520[label = "print"];
+linstrucciones10218->print10520
+mayor10521[label = ">"];
+print10520->mayor10521
+mayor10522[label = "12"];
+mayor10521->mayor10522
+mayor10523[label = "2"];
+mayor10521->mayor10523
+print10524[label = "print"];
+linstrucciones10218->print10524
+mayorque10525[label = ">="];
+print10524->mayorque10525
+mayorque10526[label = "12"];
+mayorque10525->mayorque10526
+mayorque10527[label = "2"];
+mayorque10525->mayorque10527
+print10528[label = "print"];
+linstrucciones10218->print10528
+menor10529[label = "<"];
+print10528->menor10529
+menor10530[label = "12"];
+menor10529->menor10530
+menor10531[label = "12"];
+menor10529->menor10531
+print10532[label = "print"];
+linstrucciones10218->print10532
+menorque10533[label = "<="];
+print10532->menorque10533
+menorque10534[label = "12.0"];
+menorque10533->menorque10534
+menorque10535[label = "12.0"];
+menorque10533->menorque10535
+print10536[label = "print"];
+linstrucciones10218->print10536
+por10537[label = "*"];
+print10536->por10537
+por10538[label = "*"];
+por10537->por10538
+por10539[label = "*"];
+por10538->por10539
+por10540[label = "*"];
+por10539->por10540
+por10541[label = "1"];
+por10540->por10541
+por10542[label = "*"];
+por10540->por10542
+por10543[label = "2"];
+por10542->por10543
+por10544[label = "3"];
+por10542->por10544
+por10545[label = "*"];
+por10539->por10545
+por10546[label = "4"];
+por10545->por10546
+por10547[label = "5"];
+por10545->por10547
+por10548[label = "6"];
+por10538->por10548
+por10549[label = "*"];
+por10537->por10549
+por10550[label = "4"];
+por10549->por10550
+por10551[label = "5"];
+por10549->por10551
+print10552[label = "print"];
+linstrucciones10218->print10552
+mas10553[label = "+"];
+print10552->mas10553
+mas10554[label = "+"];
+mas10553->mas10554
+mas10555[label = "+"];
+mas10554->mas10555
+mas10556[label = "+"];
+mas10555->mas10556
+mas10557[label = "1"];
+mas10556->mas10557
+mas10558[label = "+"];
+mas10556->mas10558
+mas10559[label = "2"];
+mas10558->mas10559
+mas10560[label = "3"];
+mas10558->mas10560
+mas10561[label = "+"];
+mas10555->mas10561
+mas10562[label = "4"];
+mas10561->mas10562
+mas10563[label = "5"];
+mas10561->mas10563
+mas10564[label = "6"];
+mas10554->mas10564
+mas10565[label = "+"];
+mas10553->mas10565
+mas10566[label = "4"];
+mas10565->mas10566
+mas10567[label = "5"];
+mas10565->mas10567
+print10568[label = "print"];
+linstrucciones10218->print10568
+menos10569[label = "-"];
+print10568->menos10569
+menos10570[label = "-"];
+menos10569->menos10570
+mas10571[label = "+"];
+menos10570->mas10571
+menos10572[label = "-"];
+mas10571->menos10572
+menos10573[label = "1"];
+menos10572->menos10573
+menos10574[label = "-"];
+menos10572->menos10574
+menos10575[label = "2"];
+menos10574->menos10575
+menos10576[label = "3"];
+menos10574->menos10576
+menos10577[label = "-"];
+mas10571->menos10577
+menos10578[label = "4"];
+menos10577->menos10578
+menos10579[label = "5"];
+menos10577->menos10579
+menos10580[label = "6"];
+menos10570->menos10580
+menos10581[label = "-"];
+menos10569->menos10581
+menos10582[label = "4"];
+menos10581->menos10582
+menos10583[label = "5"];
+menos10581->menos10583
+print10584[label = "print"];
+linstrucciones10218->print10584
+por10585[label = "*"];
+print10584->por10585
+mas10586[label = "+"];
+por10585->mas10586
+mas10587[label = "+"];
+mas10586->mas10587
+mas10588[label = "1"];
+mas10587->mas10588
+por10589[label = "*"];
+mas10587->por10589
+div10590[label = "/"];
+por10589->div10590
+div10591[label = "24"];
+div10590->div10591
+div10592[label = "8"];
+div10590->div10592
+menos10593[label = "-"];
+por10589->menos10593
+menos10594[label = "4"];
+menos10593->menos10594
+menos10595[label = "5"];
+menos10593->menos10595
+mas10596[label = "6"];
+mas10586->mas10596
+div10597[label = "/"];
+por10585->div10597
+div10598[label = "25"];
+div10597->div10598
+div10599[label = "5"];
+div10597->div10599
+print10600[label = "print"];
+linstrucciones10218->print10600
+var10601[label = "C "];
+print10600->var10601
+print10602[label = "print"];
+print10600->print10602
+mas10603[label = "+"];
+print10602->mas10603
+mas10604[label = "2"];
+mas10603->mas10604
+por10605[label = "*"];
+mas10603->por10605
+por10606[label = "2"];
+por10605->por10606
+por10607[label = "2"];
+por10605->por10607
+print10608[label = "print"];
+print10602->print10608
+var10609[label = "O "];
+print10608->var10609
+print10610[label = "print"];
+print10608->print10610
+mas10611[label = "+"];
+print10610->mas10611
+mas10612[label = "3"];
+mas10611->mas10612
+por10613[label = "*"];
+mas10611->por10613
+por10614[label = "3"];
+por10613->por10614
+por10615[label = "3"];
+por10613->por10615
+print10616[label = "print"];
+print10610->print10616
+var10617[label = "M "];
+print10616->var10617
+print10618[label = "print"];
+print10616->print10618
+mas10619[label = "+"];
+print10618->mas10619
+mas10620[label = "4"];
+mas10619->mas10620
+por10621[label = "*"];
+mas10619->por10621
+por10622[label = "4"];
+por10621->por10622
+por10623[label = "4"];
+por10621->por10623
+print10624[label = "print"];
+print10618->print10624
+var10625[label = "P "];
+print10624->var10625
+print10626[label = "print"];
+print10624->print10626
+mas10627[label = "+"];
+print10626->mas10627
+mas10628[label = "5"];
+mas10627->mas10628
+por10629[label = "*"];
+mas10627->por10629
+por10630[label = "5"];
+por10629->por10630
+por10631[label = "5"];
+por10629->por10631
+print10632[label = "print"];
+print10626->print10632
+var10633[label = "I"];
+print10632->var10633
+print10634[label = "print"];
+linstrucciones10218->print10634
+var10635[label = "ARRAYS "];
+print10634->var10635
+print10636[label = "print"];
+print10634->print10636
+var10637[label = "INTEGER "];
+print10636->var10637
+print10638[label = "print"];
+print10636->print10638
+var10639[label = "REAL "];
+print10638->var10639
+print10640[label = "print"];
+print10638->print10640
+var10641[label = "CHARACTER"];
+print10640->var10641
+print10642[label = "print"];
+print10640->print10642
+var10643[label = "----------------------"];
+print10642->var10643
+asigarraylist10644[label = "asigArrList"];
+linstrucciones10218->asigarraylist10644
+asigarraylist10645[label = "array1"];
+asigarraylist10644->asigarraylist10645
+asigarraylist10646[label = "10"];
+asigarraylist10644->asigarraylist10646
+asigarraylist10647[label = "1"];
+asigarraylist10644->asigarraylist10647
+asigarraylist10648[label = "9"];
+asigarraylist10644->asigarraylist10648
+asigarraylist10649[label = "2"];
+asigarraylist10644->asigarraylist10649
+asigarraylist10650[label = "8"];
+asigarraylist10644->asigarraylist10650
+asigarraylist10651[label = "3"];
+asigarraylist10644->asigarraylist10651
+asigarraylist10652[label = "7"];
+asigarraylist10644->asigarraylist10652
+asigarraylist10653[label = "4"];
+asigarraylist10644->asigarraylist10653
+asigarraylist10654[label = "6"];
+asigarraylist10644->asigarraylist10654
+asigarraylist10655[label = "5"];
+asigarraylist10644->asigarraylist10655
+asigarrayPosEspecifico10656[label = "asigarrayPosEspecifico"];
+linstrucciones10218->asigarrayPosEspecifico10656
+asigarrayPosEspecifico10657[label = "array2"];
+asigarrayPosEspecifico10656->asigarrayPosEspecifico10657
+asigarrayPosEspecifico10658[label = "1"];
+asigarrayPosEspecifico10656->asigarrayPosEspecifico10658
+asigarrayPosEspecifico10659[label = "111"];
+asigarrayPosEspecifico10656->asigarrayPosEspecifico10659
+asigarrayPosEspecifico10660[label = "asigarrayPosEspecifico"];
+linstrucciones10218->asigarrayPosEspecifico10660
+asigarrayPosEspecifico10661[label = "array2"];
+asigarrayPosEspecifico10660->asigarrayPosEspecifico10661
+asigarrayPosEspecifico10662[label = "3"];
+asigarrayPosEspecifico10660->asigarrayPosEspecifico10662
+asigarrayPosEspecifico10663[label = "222"];
+asigarrayPosEspecifico10660->asigarrayPosEspecifico10663
+asigarrayPosEspecifico10664[label = "asigarrayPosEspecifico"];
+linstrucciones10218->asigarrayPosEspecifico10664
+asigarrayPosEspecifico10665[label = "array2"];
+asigarrayPosEspecifico10664->asigarrayPosEspecifico10665
+asigarrayPosEspecifico10666[label = "5"];
+asigarrayPosEspecifico10664->asigarrayPosEspecifico10666
+asigarrayPosEspecifico10667[label = "333"];
+asigarrayPosEspecifico10664->asigarrayPosEspecifico10667
+asigarrayPosEspecifico10668[label = "asigarrayPosEspecifico"];
+linstrucciones10218->asigarrayPosEspecifico10668
+asigarrayPosEspecifico10669[label = "array2"];
+asigarrayPosEspecifico10668->asigarrayPosEspecifico10669
+asigarrayPosEspecifico10670[label = "7"];
+asigarrayPosEspecifico10668->asigarrayPosEspecifico10670
+asigarrayPosEspecifico10671[label = "444"];
+asigarrayPosEspecifico10668->asigarrayPosEspecifico10671
+print10672[label = "print"];
+linstrucciones10218->print10672
+var10673[label = "TAMANIO ARRAY 1: "];
+print10672->var10673
+print10674[label = "print"];
+linstrucciones10218->print10674
+size10675[label = "size"];
+print10674->size10675
+size10676[label = "array1"];
+size10675->size10676
+print10677[label = "print"];
+linstrucciones10218->print10677
+var10678[label = "TAMANIO ARRAY 2: "];
+print10677->var10678
+print10679[label = "print"];
+linstrucciones10218->print10679
+size10680[label = "size"];
+print10679->size10680
+size10681[label = "array2"];
+size10680->size10681
+print10682[label = "print"];
+linstrucciones10218->print10682
+var10683[label = "ARRAY 1: "];
+print10682->var10683
+print10684[label = "print"];
+linstrucciones10218->print10684
+var10685[label = "array1"];
+print10684->var10685
+print10686[label = "print"];
+linstrucciones10218->print10686
+var10687[label = "ARRAY 2: "];
+print10686->var10687
+print10688[label = "print"];
+linstrucciones10218->print10688
+var10689[label = "array2"];
+print10688->var10689
+asigarraylist10690[label = "asigArrList"];
+linstrucciones10218->asigarraylist10690
+asigarraylist10691[label = "array3"];
+asigarraylist10690->asigarraylist10691
+asigarraylist10692[label = "1.1"];
+asigarraylist10690->asigarraylist10692
+asigarraylist10693[label = "2.2"];
+asigarraylist10690->asigarraylist10693
+asigarraylist10694[label = "3.3"];
+asigarraylist10690->asigarraylist10694
+asigarraylist10695[label = "4.4"];
+asigarraylist10690->asigarraylist10695
+asigarraylist10696[label = "5.5"];
+asigarraylist10690->asigarraylist10696
+asigarraylist10697[label = "6.6"];
+asigarraylist10690->asigarraylist10697
+asigarraylist10698[label = "7.7"];
+asigarraylist10690->asigarraylist10698
+asigarraylist10699[label = "asigArrList"];
+linstrucciones10218->asigarraylist10699
+asigarraylist10700[label = "array4"];
+asigarraylist10699->asigarraylist10700
+asigarraylist10701[label = "100.1"];
+asigarraylist10699->asigarraylist10701
+asigarraylist10702[label = "200.2"];
+asigarraylist10699->asigarraylist10702
+asigarraylist10703[label = "300.3"];
+asigarraylist10699->asigarraylist10703
+asigarraylist10704[label = "400.3"];
+asigarraylist10699->asigarraylist10704
+asigarraylist10705[label = "500.5"];
+asigarraylist10699->asigarraylist10705
+print10706[label = "print"];
+linstrucciones10218->print10706
+var10707[label = "TAMANIO ARRAY 3: "];
+print10706->var10707
+print10708[label = "print"];
+linstrucciones10218->print10708
+size10709[label = "size"];
+print10708->size10709
+size10710[label = "array3"];
+size10709->size10710
+print10711[label = "print"];
+linstrucciones10218->print10711
+var10712[label = "TAMANIO ARRAY 4: "];
+print10711->var10712
+print10713[label = "print"];
+linstrucciones10218->print10713
+size10714[label = "size"];
+print10713->size10714
+size10715[label = "array4"];
+size10714->size10715
+print10716[label = "print"];
+linstrucciones10218->print10716
+var10717[label = "ARRAY 3: "];
+print10716->var10717
+print10718[label = "print"];
+linstrucciones10218->print10718
+var10719[label = "array3"];
+print10718->var10719
+print10720[label = "print"];
+linstrucciones10218->print10720
+var10721[label = "ARRAY 4: "];
+print10720->var10721
+print10722[label = "print"];
+linstrucciones10218->print10722
+var10723[label = "array4"];
+print10722->var10723
+asigarraylist10724[label = "asigArrList"];
+linstrucciones10218->asigarraylist10724
+asigarraylist10725[label = "array5"];
+asigarraylist10724->asigarraylist10725
+asigarraylist10726[label = "c"];
+asigarraylist10724->asigarraylist10726
+asigarraylist10727[label = "o"];
+asigarraylist10724->asigarraylist10727
+asigarraylist10728[label = "m"];
+asigarraylist10724->asigarraylist10728
+asigarraylist10729[label = "p"];
+asigarraylist10724->asigarraylist10729
+asigarraylist10730[label = "i"];
+asigarraylist10724->asigarraylist10730
+asigarraylist10731[label = "l"];
+asigarraylist10724->asigarraylist10731
+asigarraylist10732[label = "a"];
+asigarraylist10724->asigarraylist10732
+asigarraylist10733[label = "d"];
+asigarraylist10724->asigarraylist10733
+asigarraylist10734[label = "o"];
+asigarraylist10724->asigarraylist10734
+asigarraylist10735[label = "r"];
+asigarraylist10724->asigarraylist10735
+asigarraylist10736[label = "e"];
+asigarraylist10724->asigarraylist10736
+asigarraylist10737[label = "s"];
+asigarraylist10724->asigarraylist10737
+asigarraylist10738[label = "asigArrList"];
+linstrucciones10218->asigarraylist10738
+asigarraylist10739[label = "array6"];
+asigarraylist10738->asigarraylist10739
+asigarraylist10740[label = "s"];
+asigarraylist10738->asigarraylist10740
+asigarraylist10741[label = "i"];
+asigarraylist10738->asigarraylist10741
+asigarraylist10742[label = "s"];
+asigarraylist10738->asigarraylist10742
+asigarraylist10743[label = "a"];
+asigarraylist10738->asigarraylist10743
+asigarraylist10744[label = "l"];
+asigarraylist10738->asigarraylist10744
+asigarraylist10745[label = "e"];
+asigarraylist10738->asigarraylist10745
+print10746[label = "print"];
+linstrucciones10218->print10746
+var10747[label = "TAMANIO ARRAY 5: "];
+print10746->var10747
+print10748[label = "print"];
+linstrucciones10218->print10748
+size10749[label = "size"];
+print10748->size10749
+size10750[label = "array5"];
+size10749->size10750
+print10751[label = "print"];
+linstrucciones10218->print10751
+var10752[label = "TAMANIO ARRAY 6: "];
+print10751->var10752
+print10753[label = "print"];
+linstrucciones10218->print10753
+size10754[label = "size"];
+print10753->size10754
+size10755[label = "array6"];
+size10754->size10755
+print10756[label = "print"];
+linstrucciones10218->print10756
+var10757[label = "ARRAY 5: "];
+print10756->var10757
+print10758[label = "print"];
+linstrucciones10218->print10758
+var10759[label = "array5"];
+print10758->var10759
+print10760[label = "print"];
+linstrucciones10218->print10760
+var10761[label = "ARRAY 6: "];
+print10760->var10761
+print10762[label = "print"];
+linstrucciones10218->print10762
+var10763[label = "array6"];
+print10762->var10763
+print10764[label = "print"];
+linstrucciones10218->print10764
+var10765[label = "IF ELSE-IF ELSE"];
+print10764->var10765
+print10766[label = "print"];
+print10764->print10766
+var10767[label = "----------------------"];
+print10766->var10767
+asigvar10768[label = "asignacionVar"];
+linstrucciones10218->asigvar10768
+asigvar10769[label = "var12"];
+asigvar10768->asigvar10769
+asigvar10770[label = "61"];
+asigvar10768->asigvar10770
+sentenciaif10771[label = "sentenciaif"];
+linstrucciones10218->sentenciaif10771
+if10772[label = "if"];
+sentenciaif10771->if10772
+mayor10773[label = ">"];
+if10772->mayor10773
+mayor10774[label = "var12"];
+mayor10773->mayor10774
+mayor10775[label = "1"];
+mayor10773->mayor10775
+linstrucciones10776[label = "linstrucciones"];
+if10772->linstrucciones10776
+print10777[label = "print"];
+linstrucciones10776->print10777
+var10778[label = "var12"];
+print10777->var10778
+print10779[label = "print"];
+print10777->print10779
+var10780[label = " es > a "];
+print10779->var10780
+print10781[label = "print"];
+print10779->print10781
+var10782[label = "1"];
+print10781->var10782
+sentenciaif10783[label = "sentenciaif"];
+linstrucciones10218->sentenciaif10783
+if10784[label = "if"];
+sentenciaif10783->if10784
+menorque10785[label = "<="];
+if10784->menorque10785
+menorque10786[label = "var12"];
+menorque10785->menorque10786
+menorque10787[label = "50"];
+menorque10785->menorque10787
+linstrucciones10788[label = "linstrucciones"];
+if10784->linstrucciones10788
+print10789[label = "print"];
+linstrucciones10788->print10789
+var10790[label = "NO DEBERIA DE IMPRMIR ESTO 1"];
+print10789->var10790
+if10791[label = "if"];
+sentenciaif10783->if10791
+mayor10792[label = ">"];
+if10791->mayor10792
+mayor10793[label = "var12"];
+mayor10792->mayor10793
+mayor10794[label = "50"];
+mayor10792->mayor10794
+linstrucciones10795[label = "linstrucciones"];
+if10791->linstrucciones10795
+print10796[label = "print"];
+linstrucciones10795->print10796
+var10797[label = "var12"];
+print10796->var10797
+print10798[label = "print"];
+print10796->print10798
+var10799[label = " es <= a "];
+print10798->var10799
+print10800[label = "print"];
+print10798->print10800
+var10801[label = "50"];
+print10800->var10801
+sentenciaif10802[label = "sentenciaif"];
+linstrucciones10218->sentenciaif10802
+if10803[label = "if"];
+sentenciaif10802->if10803
+and10804[label = ".and."];
+if10803->and10804
+mayor10805[label = ">"];
+and10804->mayor10805
+mayor10806[label = "var12"];
+mayor10805->mayor10806
+mayor10807[label = "10"];
+mayor10805->mayor10807
+menorque10808[label = "<="];
+and10804->menorque10808
+menorque10809[label = "var12"];
+menorque10808->menorque10809
+menorque10810[label = "25"];
+menorque10808->menorque10810
+linstrucciones10811[label = "linstrucciones"];
+if10803->linstrucciones10811
+print10812[label = "print"];
+linstrucciones10811->print10812
+var10813[label = "NO DEBERIA DE IMPRMIR ESTO 2"];
+print10812->var10813
+if10814[label = "if"];
+sentenciaif10802->if10814
+and10815[label = ".and."];
+if10814->and10815
+mayor10816[label = ">"];
+and10815->mayor10816
+mayor10817[label = "var12"];
+mayor10816->mayor10817
+mayor10818[label = "25"];
+mayor10816->mayor10818
+menorque10819[label = "<="];
+and10815->menorque10819
+menorque10820[label = "var12"];
+menorque10819->menorque10820
+menorque10821[label = "60"];
+menorque10819->menorque10821
+linstrucciones10822[label = "linstrucciones"];
+if10814->linstrucciones10822
+print10823[label = "print"];
+linstrucciones10822->print10823
+var10824[label = "NO DEBERIA DE IMPRMIR ESTO 3"];
+print10823->var10824
+else10825[label = "else"];
+sentenciaif10802->else10825
+linstrucciones10826[label = "linstrucciones"];
+else10825->linstrucciones10826
+print10827[label = "print"];
+linstrucciones10826->print10827
+var10828[label = "SI SALE "];
+print10827->var10828
+print10829[label = "print"];
+print10827->print10829
+var10830[label = "COMPI :)"];
+print10829->var10830
+print10831[label = "print"];
+linstrucciones10218->print10831
+var10832[label = "ARRAY 1 CON DO"];
+print10831->var10832
+print10833[label = "print"];
+print10831->print10833
+var10834[label = "----------------------"];
+print10833->var10834
+do10835[label = "do"];
+linstrucciones10218->do10835
+do10836[label = "var13"];
+do10835->do10836
+do10837[label = "1"];
+do10835->do10837
+size10838[label = "size"];
+do10835->size10838
+size10839[label = "array1"];
+size10838->size10839
+do10840[label = "1"];
+do10835->do10840
+linstrucciones10841[label = "linstrucciones"];
+do10835->linstrucciones10841
+print10842[label = "print"];
+linstrucciones10841->print10842
+arrayAccesoExpr10843[label = "arrayAccesoExpr"];
+print10842->arrayAccesoExpr10843
+arrayAccesoExpr10844[label = "array1"];
+arrayAccesoExpr10843->arrayAccesoExpr10844
+arrayAccesoExpr10845[label = "var13"];
+arrayAccesoExpr10843->arrayAccesoExpr10845
+print10846[label = "print"];
+linstrucciones10218->print10846
+var10847[label = "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "];
+print10846->var10847
+print10848[label = "print"];
+linstrucciones10218->print10848
+var10849[label = "var13"];
+print10848->var10849
+print10850[label = "print"];
+linstrucciones10218->print10850
+var10851[label = "ARRAY 3 CON DO"];
+print10850->var10851
+print10852[label = "print"];
+print10850->print10852
+var10853[label = "----------------------"];
+print10852->var10853
+do10854[label = "do"];
+linstrucciones10218->do10854
+do10855[label = "var13"];
+do10854->do10855
+do10856[label = "1"];
+do10854->do10856
+size10857[label = "size"];
+do10854->size10857
+size10858[label = "array3"];
+size10857->size10858
+do10859[label = "1"];
+do10854->do10859
+linstrucciones10860[label = "linstrucciones"];
+do10854->linstrucciones10860
+print10861[label = "print"];
+linstrucciones10860->print10861
+arrayAccesoExpr10862[label = "arrayAccesoExpr"];
+print10861->arrayAccesoExpr10862
+arrayAccesoExpr10863[label = "array3"];
+arrayAccesoExpr10862->arrayAccesoExpr10863
+arrayAccesoExpr10864[label = "var13"];
+arrayAccesoExpr10862->arrayAccesoExpr10864
+print10865[label = "print"];
+linstrucciones10218->print10865
+var10866[label = "DEBERIA IMPRIMIR 8 EN LA SIGUIENTE LINEA -> "];
+print10865->var10866
+print10867[label = "print"];
+linstrucciones10218->print10867
+var10868[label = "var13"];
+print10867->var10868
+print10869[label = "print"];
+linstrucciones10218->print10869
+var10870[label = "ARRAY 5 CON DO"];
+print10869->var10870
+print10871[label = "print"];
+print10869->print10871
+var10872[label = "----------------------"];
+print10871->var10872
+do10873[label = "do"];
+linstrucciones10218->do10873
+do10874[label = "var13"];
+do10873->do10874
+do10875[label = "1"];
+do10873->do10875
+size10876[label = "size"];
+do10873->size10876
+size10877[label = "array5"];
+size10876->size10877
+do10878[label = "1"];
+do10873->do10878
+linstrucciones10879[label = "linstrucciones"];
+do10873->linstrucciones10879
+print10880[label = "print"];
+linstrucciones10879->print10880
+arrayAccesoExpr10881[label = "arrayAccesoExpr"];
+print10880->arrayAccesoExpr10881
+arrayAccesoExpr10882[label = "array5"];
+arrayAccesoExpr10881->arrayAccesoExpr10882
+arrayAccesoExpr10883[label = "var13"];
+arrayAccesoExpr10881->arrayAccesoExpr10883
+print10884[label = "print"];
+linstrucciones10218->print10884
+var10885[label = "DEBERIA IMPRIMIR 13 EN LA SIGUIENTE LINEA -> "];
+print10884->var10885
+print10886[label = "print"];
+linstrucciones10218->print10886
+var10887[label = "var13"];
+print10886->var10887
+print10888[label = "print"];
+linstrucciones10218->print10888
+var10889[label = "ARRAY 2 CON DO WHILE"];
+print10888->var10889
+print10890[label = "print"];
+print10888->print10890
+var10891[label = "----------------------"];
+print10890->var10891
+asigvar10892[label = "asignacionVar"];
+linstrucciones10218->asigvar10892
+asigvar10893[label = "var14"];
+asigvar10892->asigvar10893
+asigvar10894[label = "1"];
+asigvar10892->asigvar10894
+dowhile10895[label = "dowhile"];
+linstrucciones10218->dowhile10895
+menor10896[label = "<"];
+dowhile10895->menor10896
+menor10897[label = "var14"];
+menor10896->menor10897
+menor10898[label = "9"];
+menor10896->menor10898
+linstrucciones10899[label = "linstrucciones"];
+dowhile10895->linstrucciones10899
+print10900[label = "print"];
+linstrucciones10899->print10900
+arrayAccesoExpr10901[label = "arrayAccesoExpr"];
+print10900->arrayAccesoExpr10901
+arrayAccesoExpr10902[label = "array2"];
+arrayAccesoExpr10901->arrayAccesoExpr10902
+arrayAccesoExpr10903[label = "var14"];
+arrayAccesoExpr10901->arrayAccesoExpr10903
+asigvar10904[label = "asignacionVar"];
+linstrucciones10899->asigvar10904
+asigvar10905[label = "var14"];
+asigvar10904->asigvar10905
+mas10906[label = "+"];
+asigvar10904->mas10906
+mas10907[label = "var14"];
+mas10906->mas10907
+mas10908[label = "1"];
+mas10906->mas10908
+print10909[label = "print"];
+linstrucciones10218->print10909
+var10910[label = "DEBERIA IMPRIMIR 9 EN LA SIGUIENTE LINEA -> "];
+print10909->var10910
+print10911[label = "print"];
+linstrucciones10218->print10911
+var10912[label = "var14"];
+print10911->var10912
+print10913[label = "print"];
+linstrucciones10218->print10913
+var10914[label = "ARRAY 4 CON DO WHILE"];
+print10913->var10914
+print10915[label = "print"];
+print10913->print10915
+var10916[label = "----------------------"];
+print10915->var10916
+asigvar10917[label = "asignacionVar"];
+linstrucciones10218->asigvar10917
+asigvar10918[label = "var14"];
+asigvar10917->asigvar10918
+asigvar10919[label = "1"];
+asigvar10917->asigvar10919
+dowhile10920[label = "dowhile"];
+linstrucciones10218->dowhile10920
+menorque10921[label = "<="];
+dowhile10920->menorque10921
+menorque10922[label = "var14"];
+menorque10921->menorque10922
+menorque10923[label = "5"];
+menorque10921->menorque10923
+linstrucciones10924[label = "linstrucciones"];
+dowhile10920->linstrucciones10924
+print10925[label = "print"];
+linstrucciones10924->print10925
+arrayAccesoExpr10926[label = "arrayAccesoExpr"];
+print10925->arrayAccesoExpr10926
+arrayAccesoExpr10927[label = "array4"];
+arrayAccesoExpr10926->arrayAccesoExpr10927
+arrayAccesoExpr10928[label = "var14"];
+arrayAccesoExpr10926->arrayAccesoExpr10928
+asigvar10929[label = "asignacionVar"];
+linstrucciones10924->asigvar10929
+asigvar10930[label = "var14"];
+asigvar10929->asigvar10930
+mas10931[label = "+"];
+asigvar10929->mas10931
+mas10932[label = "var14"];
+mas10931->mas10932
+mas10933[label = "1"];
+mas10931->mas10933
+print10934[label = "print"];
+linstrucciones10218->print10934
+var10935[label = "DEBERIA IMPRIMIR 6 EN LA SIGUIENTE LINEA -> "];
+print10934->var10935
+print10936[label = "print"];
+linstrucciones10218->print10936
+var10937[label = "var14"];
+print10936->var10937
+print10938[label = "print"];
+linstrucciones10218->print10938
+var10939[label = "ARRAY 6 CON DO WHILE"];
+print10938->var10939
+print10940[label = "print"];
+print10938->print10940
+var10941[label = "----------------------"];
+print10940->var10941
+asigvar10942[label = "asignacionVar"];
+linstrucciones10218->asigvar10942
+asigvar10943[label = "var14"];
+asigvar10942->asigvar10943
+asigvar10944[label = "1"];
+asigvar10942->asigvar10944
+dowhile10945[label = "dowhile"];
+linstrucciones10218->dowhile10945
+menor10946[label = "<"];
+dowhile10945->menor10946
+menor10947[label = "var14"];
+menor10946->menor10947
+menor10948[label = "7"];
+menor10946->menor10948
+linstrucciones10949[label = "linstrucciones"];
+dowhile10945->linstrucciones10949
+print10950[label = "print"];
+linstrucciones10949->print10950
+arrayAccesoExpr10951[label = "arrayAccesoExpr"];
+print10950->arrayAccesoExpr10951
+arrayAccesoExpr10952[label = "array6"];
+arrayAccesoExpr10951->arrayAccesoExpr10952
+arrayAccesoExpr10953[label = "var14"];
+arrayAccesoExpr10951->arrayAccesoExpr10953
+asigvar10954[label = "asignacionVar"];
+linstrucciones10949->asigvar10954
+asigvar10955[label = "var14"];
+asigvar10954->asigvar10955
+mas10956[label = "+"];
+asigvar10954->mas10956
+mas10957[label = "var14"];
+mas10956->mas10957
+mas10958[label = "1"];
+mas10956->mas10958
+print10959[label = "print"];
+linstrucciones10218->print10959
+var10960[label = "DEBERIA IMPRIMIR 7 EN LA SIGUIENTE LINEA -> "];
+print10959->var10960
+print10961[label = "print"];
+linstrucciones10218->print10961
+var10962[label = "var14"];
+print10961->var10962
+print10963[label = "print"];
+linstrucciones10218->print10963
+var10964[label = "CONTROL DE CICLOS EXIT CON DO"];
+print10963->var10964
+print10965[label = "print"];
+print10963->print10965
+var10966[label = "----------------------"];
+print10965->var10966
+do10967[label = "do"];
+linstrucciones10218->do10967
+do10968[label = "var15"];
+do10967->do10968
+do10969[label = "1"];
+do10967->do10969
+do10970[label = "100"];
+do10967->do10970
+do10971[label = "2"];
+do10967->do10971
+linstrucciones10972[label = "linstrucciones"];
+do10967->linstrucciones10972
+sentenciaif10973[label = "sentenciaif"];
+linstrucciones10972->sentenciaif10973
+if10974[label = "if"];
+sentenciaif10973->if10974
+mayor10975[label = ">"];
+if10974->mayor10975
+mayor10976[label = "var15"];
+mayor10975->mayor10976
+mayor10977[label = "20"];
+mayor10975->mayor10977
+linstrucciones10978[label = "linstrucciones"];
+if10974->linstrucciones10978
+exit10979[label = "exit"];
+linstrucciones10978->exit10979
+print10980[label = "print"];
+linstrucciones10972->print10980
+var10981[label = "var15"];
+print10980->var10981
+print10982[label = "print"];
+linstrucciones10218->print10982
+var10983[label = "DEBERIA IMPRIMIR 21 EN LA SIGUIENTE LINEA -> "];
+print10982->var10983
+print10984[label = "print"];
+linstrucciones10218->print10984
+var10985[label = "var15"];
+print10984->var10985
+print10986[label = "print"];
+linstrucciones10218->print10986
+var10987[label = "CONTROL DE CICLOS EXIT CON DO WHILE"];
+print10986->var10987
+print10988[label = "print"];
+print10986->print10988
+var10989[label = "----------------------"];
+print10988->var10989
+asigvar10990[label = "asignacionVar"];
+linstrucciones10218->asigvar10990
+asigvar10991[label = "var15"];
+asigvar10990->asigvar10991
+asigvar10992[label = "1"];
+asigvar10990->asigvar10992
+dowhile10993[label = "dowhile"];
+linstrucciones10218->dowhile10993
+menor10994[label = "<"];
+dowhile10993->menor10994
+menor10995[label = "var15"];
+menor10994->menor10995
+menor10996[label = "100"];
+menor10994->menor10996
+linstrucciones10997[label = "linstrucciones"];
+dowhile10993->linstrucciones10997
+sentenciaif10998[label = "sentenciaif"];
+linstrucciones10997->sentenciaif10998
+if10999[label = "if"];
+sentenciaif10998->if10999
+mayor11000[label = ">"];
+if10999->mayor11000
+mayor11001[label = "var15"];
+mayor11000->mayor11001
+mayor11002[label = "10"];
+mayor11000->mayor11002
+linstrucciones11003[label = "linstrucciones"];
+if10999->linstrucciones11003
+exit11004[label = "exit"];
+linstrucciones11003->exit11004
+print11005[label = "print"];
+linstrucciones10997->print11005
+var11006[label = "var15"];
+print11005->var11006
+asigvar11007[label = "asignacionVar"];
+linstrucciones10997->asigvar11007
+asigvar11008[label = "var15"];
+asigvar11007->asigvar11008
+mas11009[label = "+"];
+asigvar11007->mas11009
+mas11010[label = "var15"];
+mas11009->mas11010
+mas11011[label = "1"];
+mas11009->mas11011
+print11012[label = "print"];
+linstrucciones10218->print11012
+var11013[label = "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "];
+print11012->var11013
+print11014[label = "print"];
+linstrucciones10218->print11014
+var11015[label = "var15"];
+print11014->var11015
+print11016[label = "print"];
+linstrucciones10218->print11016
+var11017[label = "CONTROL DE CICLOS CYCLE CON DO"];
+print11016->var11017
+print11018[label = "print"];
+print11016->print11018
+var11019[label = "----------------------"];
+print11018->var11019
+do11020[label = "do"];
+linstrucciones10218->do11020
+do11021[label = "var16"];
+do11020->do11021
+do11022[label = "1"];
+do11020->do11022
+do11023[label = "10"];
+do11020->do11023
+do11024[label = "1"];
+do11020->do11024
+linstrucciones11025[label = "linstrucciones"];
+do11020->linstrucciones11025
+sentenciaif11026[label = "sentenciaif"];
+linstrucciones11025->sentenciaif11026
+if11027[label = "if"];
+sentenciaif11026->if11027
+or11028[label = ".or."];
+if11027->or11028
+or11029[label = ".or."];
+or11028->or11029
+or11030[label = ".or."];
+or11029->or11030
+or11031[label = ".or."];
+or11030->or11031
+igualigual11032[label = "=="];
+or11031->igualigual11032
+igualigual11033[label = "var16"];
+igualigual11032->igualigual11033
+menos11034[label = "1"];
+igualigual11032->menos11034
+igualigual11035[label = "=="];
+or11031->igualigual11035
+igualigual11036[label = "var16"];
+igualigual11035->igualigual11036
+menos11037[label = "3"];
+igualigual11035->menos11037
+igualigual11038[label = "=="];
+or11030->igualigual11038
+igualigual11039[label = "var16"];
+igualigual11038->igualigual11039
+menos11040[label = "5"];
+igualigual11038->menos11040
+igualigual11041[label = "=="];
+or11029->igualigual11041
+igualigual11042[label = "var16"];
+igualigual11041->igualigual11042
+menos11043[label = "7"];
+igualigual11041->menos11043
+igualigual11044[label = "=="];
+or11028->igualigual11044
+igualigual11045[label = "var16"];
+igualigual11044->igualigual11045
+menos11046[label = "9"];
+igualigual11044->menos11046
+linstrucciones11047[label = "linstrucciones"];
+if11027->linstrucciones11047
+cycle11048[label = "cycle"];
+linstrucciones11047->cycle11048
+print11049[label = "print"];
+linstrucciones11025->print11049
+var11050[label = "var16"];
+print11049->var11050
+print11051[label = "print"];
+linstrucciones10218->print11051
+var11052[label = "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "];
+print11051->var11052
+print11053[label = "print"];
+linstrucciones10218->print11053
+var11054[label = "var16"];
+print11053->var11054
+print11055[label = "print"];
+linstrucciones10218->print11055
+var11056[label = "CONTROL DE CICLOS CYCLE CON DO WHILE"];
+print11055->var11056
+print11057[label = "print"];
+print11055->print11057
+var11058[label = "----------------------"];
+print11057->var11058
+asigvar11059[label = "asignacionVar"];
+linstrucciones10218->asigvar11059
+asigvar11060[label = "var17"];
+asigvar11059->asigvar11060
+asigvar11061[label = "1"];
+asigvar11059->asigvar11061
+dowhile11062[label = "dowhile"];
+linstrucciones10218->dowhile11062
+menor11063[label = "<"];
+dowhile11062->menor11063
+menor11064[label = "var17"];
+menor11063->menor11064
+menor11065[label = "11"];
+menor11063->menor11065
+linstrucciones11066[label = "linstrucciones"];
+dowhile11062->linstrucciones11066
+sentenciaif11067[label = "sentenciaif"];
+linstrucciones11066->sentenciaif11067
+if11068[label = "if"];
+sentenciaif11067->if11068
+or11069[label = ".or."];
+if11068->or11069
+or11070[label = ".or."];
+or11069->or11070
+or11071[label = ".or."];
+or11070->or11071
+or11072[label = ".or."];
+or11071->or11072
+igualigual11073[label = "=="];
+or11072->igualigual11073
+igualigual11074[label = "var17"];
+igualigual11073->igualigual11074
+menos11075[label = "2"];
+igualigual11073->menos11075
+igualigual11076[label = "=="];
+or11072->igualigual11076
+igualigual11077[label = "var17"];
+igualigual11076->igualigual11077
+menos11078[label = "4"];
+igualigual11076->menos11078
+igualigual11079[label = "=="];
+or11071->igualigual11079
+igualigual11080[label = "var17"];
+igualigual11079->igualigual11080
+menos11081[label = "6"];
+igualigual11079->menos11081
+igualigual11082[label = "=="];
+or11070->igualigual11082
+igualigual11083[label = "var17"];
+igualigual11082->igualigual11083
+menos11084[label = "8"];
+igualigual11082->menos11084
+igualigual11085[label = "=="];
+or11069->igualigual11085
+igualigual11086[label = "var17"];
+igualigual11085->igualigual11086
+menos11087[label = "10"];
+igualigual11085->menos11087
+linstrucciones11088[label = "linstrucciones"];
+if11068->linstrucciones11088
+asigvar11089[label = "asignacionVar"];
+linstrucciones11088->asigvar11089
+asigvar11090[label = "var17"];
+asigvar11089->asigvar11090
+mas11091[label = "+"];
+asigvar11089->mas11091
+mas11092[label = "var17"];
+mas11091->mas11092
+mas11093[label = "1"];
+mas11091->mas11093
+cycle11094[label = "cycle"];
+linstrucciones11088->cycle11094
+print11095[label = "print"];
+linstrucciones11066->print11095
+var11096[label = "var17"];
+print11095->var11096
+asigvar11097[label = "asignacionVar"];
+linstrucciones11066->asigvar11097
+asigvar11098[label = "var17"];
+asigvar11097->asigvar11098
+mas11099[label = "+"];
+asigvar11097->mas11099
+mas11100[label = "var17"];
+mas11099->mas11100
+mas11101[label = "1"];
+mas11099->mas11101
+print11102[label = "print"];
+linstrucciones10218->print11102
+var11103[label = "DEBERIA IMPRIMIR 11 EN LA SIGUIENTE LINEA -> "];
+print11102->var11103
+print11104[label = "print"];
+linstrucciones10218->print11104
+var11105[label = "var17"];
+print11104->var11105
+print11106[label = "print"];
+linstrucciones10218->print11106
+var11107[label = "CICLO DO ANIDADO, CON EXIT Y CYCLE"];
+print11106->var11107
+print11108[label = "print"];
+print11106->print11108
+var11109[label = "----------------------"];
+print11108->var11109
+do11110[label = "do"];
+linstrucciones10218->do11110
+do11111[label = "var18"];
+do11110->do11111
+do11112[label = "1"];
+do11110->do11112
+do11113[label = "10"];
+do11110->do11113
+do11114[label = "2"];
+do11110->do11114
+linstrucciones11115[label = "linstrucciones"];
+do11110->linstrucciones11115
+do11116[label = "do"];
+linstrucciones11115->do11116
+do11117[label = "var19"];
+do11116->do11117
+do11118[label = "1"];
+do11116->do11118
+do11119[label = "10"];
+do11116->do11119
+do11120[label = "2"];
+do11116->do11120
+linstrucciones11121[label = "linstrucciones"];
+do11116->linstrucciones11121
+sentenciaif11122[label = "sentenciaif"];
+linstrucciones11121->sentenciaif11122
+if11123[label = "if"];
+sentenciaif11122->if11123
+mayor11124[label = ">"];
+if11123->mayor11124
+mayor11125[label = "var19"];
+mayor11124->mayor11125
+mayor11126[label = "5"];
+mayor11124->mayor11126
+linstrucciones11127[label = "linstrucciones"];
+if11123->linstrucciones11127
+exit11128[label = "exit"];
+linstrucciones11127->exit11128
+else11129[label = "else"];
+sentenciaif11122->else11129
+linstrucciones11130[label = "linstrucciones"];
+else11129->linstrucciones11130
+print11131[label = "print"];
+linstrucciones11130->print11131
+var11132[label = "b"];
+print11131->var11132
+print11133[label = "print"];
+linstrucciones11121->print11133
+var11134[label = "var19"];
+print11133->var11134
+sentenciaif11135[label = "sentenciaif"];
+linstrucciones11115->sentenciaif11135
+if11136[label = "if"];
+sentenciaif11135->if11136
+menor11137[label = "<"];
+if11136->menor11137
+menor11138[label = "var18"];
+menor11137->menor11138
+menor11139[label = "5"];
+menor11137->menor11139
+linstrucciones11140[label = "linstrucciones"];
+if11136->linstrucciones11140
+print11141[label = "print"];
+linstrucciones11140->print11141
+var11142[label = "a"];
+print11141->var11142
+else11143[label = "else"];
+sentenciaif11135->else11143
+linstrucciones11144[label = "linstrucciones"];
+else11143->linstrucciones11144
+cycle11145[label = "cycle"];
+linstrucciones11144->cycle11145
+print11146[label = "print"];
+linstrucciones11115->print11146
+var11147[label = "var18"];
+print11146->var11147
+print11148[label = "print"];
+linstrucciones10218->print11148
+var11149[label = "----------------------"];
+print11148->var11149
+print11150[label = "print"];
+print11148->print11150
+var11151[label = "SUBROUTINE SUMA LLAMADA 1"];
+print11150->var11151
+print11152[label = "print"];
+print11150->print11152
+var11153[label = "----------------------"];
+print11152->var11153
+call11154[label = "call"];
+linstrucciones10218->call11154
+call11155[label = "suma"];
+call11154->call11155
+lparametros11156[label = "lparametros"];
+call11154->lparametros11156
+lparametros11157[label = "1"];
+lparametros11156->lparametros11157
+lparametros11158[label = "2"];
+lparametros11156->lparametros11158
+lparametros11159[label = "3"];
+lparametros11156->lparametros11159
+lparametros11160[label = "4"];
+lparametros11156->lparametros11160
+lparametros11161[label = "5"];
+lparametros11156->lparametros11161
+lparametros11162[label = "6"];
+lparametros11156->lparametros11162
+print11163[label = "print"];
+linstrucciones10218->print11163
+var11164[label = " "];
+print11163->var11164
+print11165[label = "print"];
+linstrucciones10218->print11165
+var11166[label = "----------------------"];
+print11165->var11166
+print11167[label = "print"];
+print11165->print11167
+var11168[label = "SUBROUTINE IMPRIMIR_HOLA_MUNDO 1"];
+print11167->var11168
+print11169[label = "print"];
+print11167->print11169
+var11170[label = "----------------------"];
+print11169->var11170
+call11171[label = "call"];
+linstrucciones10218->call11171
+call11172[label = "imprimir_hola_mundo"];
+call11171->call11172
+lparametros11173[label = "lparametros"];
+call11171->lparametros11173
+print11174[label = "print"];
+linstrucciones10218->print11174
+var11175[label = " "];
+print11174->var11175
+print11176[label = "print"];
+linstrucciones10218->print11176
+var11177[label = "----------------------"];
+print11176->var11177
+print11178[label = "print"];
+print11176->print11178
+var11179[label = "SUBROUTINE SUMA LLAMADA 2"];
+print11178->var11179
+print11180[label = "print"];
+print11178->print11180
+var11181[label = "----------------------"];
+print11180->var11181
+call11182[label = "call"];
+linstrucciones10218->call11182
+call11183[label = "suma"];
+call11182->call11183
+lparametros11184[label = "lparametros"];
+call11182->lparametros11184
+mas11185[label = "+"];
+lparametros11184->mas11185
+mas11186[label = "2"];
+mas11185->mas11186
+mas11187[label = "2"];
+mas11185->mas11187
+mas11188[label = "+"];
+lparametros11184->mas11188
+mas11189[label = "3"];
+mas11188->mas11189
+mas11190[label = "3"];
+mas11188->mas11190
+mas11191[label = "+"];
+lparametros11184->mas11191
+mas11192[label = "4"];
+mas11191->mas11192
+mas11193[label = "4"];
+mas11191->mas11193
+mas11194[label = "+"];
+lparametros11184->mas11194
+mas11195[label = "5"];
+mas11194->mas11195
+mas11196[label = "5"];
+mas11194->mas11196
+mas11197[label = "+"];
+lparametros11184->mas11197
+mas11198[label = "6"];
+mas11197->mas11198
+mas11199[label = "6"];
+mas11197->mas11199
+mas11200[label = "+"];
+lparametros11184->mas11200
+mas11201[label = "7"];
+mas11200->mas11201
+mas11202[label = "7"];
+mas11200->mas11202
+print11203[label = "print"];
+linstrucciones10218->print11203
+var11204[label = " "];
+print11203->var11204
+print11205[label = "print"];
+linstrucciones10218->print11205
+var11206[label = "----------------------"];
+print11205->var11206
+print11207[label = "print"];
+print11205->print11207
+var11208[label = "FUNCION MULTIPLICACION"];
+print11207->var11208
+print11209[label = "print"];
+print11207->print11209
+var11210[label = "----------------------"];
+print11209->var11210
+print11211[label = "print"];
+linstrucciones10218->print11211
+var11212[label = "Multiplicacion: "];
+print11211->var11212
+asigvar11213[label = "asignacionVar"];
+linstrucciones10218->asigvar11213
+asigvar11214[label = "var21"];
+asigvar11213->asigvar11214
+funcExpr11215[label = "funcExpr"];
+asigvar11213->funcExpr11215
+funcExpr11216[label = "multiplicacion"];
+funcExpr11215->funcExpr11216
+lparametros11217[label = "lparametros"];
+funcExpr11215->lparametros11217
+lparametros11218[label = "1"];
+lparametros11217->lparametros11218
+lparametros11219[label = "2"];
+lparametros11217->lparametros11219
+lparametros11220[label = "3"];
+lparametros11217->lparametros11220
+lparametros11221[label = "4"];
+lparametros11217->lparametros11221
+lparametros11222[label = "5"];
+lparametros11217->lparametros11222
+lparametros11223[label = "6"];
+lparametros11217->lparametros11223
+print11224[label = "print"];
+linstrucciones10218->print11224
+var11225[label = "var21"];
+print11224->var11225
+print11226[label = "print"];
+linstrucciones10218->print11226
+var11227[label = " "];
+print11226->var11227
+print11228[label = "print"];
+linstrucciones10218->print11228
+var11229[label = "----------------------"];
+print11228->var11229
+print11230[label = "print"];
+print11228->print11230
+var11231[label = "FUNCION OPERACION"];
+print11230->var11231
+print11232[label = "print"];
+print11230->print11232
+var11233[label = "----------------------"];
+print11232->var11233
+print11234[label = "print"];
+linstrucciones10218->print11234
+var11235[label = "Operacion: "];
+print11234->var11235
+asigvar11236[label = "asignacionVar"];
+linstrucciones10218->asigvar11236
+asigvar11237[label = "var22"];
+asigvar11236->asigvar11237
+funcExpr11238[label = "funcExpr"];
+asigvar11236->funcExpr11238
+funcExpr11239[label = "operacion"];
+funcExpr11238->funcExpr11239
+lparametros11240[label = "lparametros"];
+funcExpr11238->lparametros11240
+print11241[label = "print"];
+linstrucciones10218->print11241
+var11242[label = "var22"];
+print11241->var11242
+print11243[label = "print"];
+linstrucciones10218->print11243
+var11244[label = "----------------------"];
+print11243->var11244
+print11245[label = "print"];
+print11243->print11245
+var11246[label = "FUNCION MULTIPLICACION"];
+print11245->var11246
+print11247[label = "print"];
+print11245->print11247
+var11248[label = "----------------------"];
+print11247->var11248
+print11249[label = "print"];
+linstrucciones10218->print11249
+var11250[label = "Multiplicacion: "];
+print11249->var11250
+asigvar11251[label = "asignacionVar"];
+linstrucciones10218->asigvar11251
+asigvar11252[label = "var23"];
+asigvar11251->asigvar11252
+funcExpr11253[label = "funcExpr"];
+asigvar11251->funcExpr11253
+funcExpr11254[label = "multiplicacion"];
+funcExpr11253->funcExpr11254
+lparametros11255[label = "lparametros"];
+funcExpr11253->lparametros11255
+mas11256[label = "+"];
+lparametros11255->mas11256
+mas11257[label = "1"];
+mas11256->mas11257
+mas11258[label = "2"];
+mas11256->mas11258
+mas11259[label = "+"];
+lparametros11255->mas11259
+mas11260[label = "2"];
+mas11259->mas11260
+mas11261[label = "3"];
+mas11259->mas11261
+mas11262[label = "+"];
+lparametros11255->mas11262
+mas11263[label = "3"];
+mas11262->mas11263
+mas11264[label = "4"];
+mas11262->mas11264
+mas11265[label = "+"];
+lparametros11255->mas11265
+mas11266[label = "4"];
+mas11265->mas11266
+mas11267[label = "5"];
+mas11265->mas11267
+mas11268[label = "+"];
+lparametros11255->mas11268
+mas11269[label = "5"];
+mas11268->mas11269
+mas11270[label = "7"];
+mas11268->mas11270
+mas11271[label = "+"];
+lparametros11255->mas11271
+mas11272[label = "6"];
+mas11271->mas11272
+mas11273[label = "7"];
+mas11271->mas11273
+print11274[label = "print"];
+linstrucciones10218->print11274
+var11275[label = "var23"];
+print11274->var11275
+print11276[label = "print"];
+linstrucciones10218->print11276
+var11277[label = " "];
+print11276->var11277
+program11278[label = "compi"];
+program10216->program11278
+}
